@@ -1,0 +1,199 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    /*background: url(images/page_bg.jpg);*/
+    background-image: url("../images/Seychelles.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+html, body, #wrapper, h1, #nav, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 750px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+* html .clear {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+.left {
+    float: left;
+    margin: 1px 8px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 1px 0px 0px 8px;
+}
+
+.softright {
+    text-align: right;
+}
+
+.readmore {
+    text-align: right;
+    padding-right: 1em;
+}
+
+/*contact*/
+
+#contact{
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+#contact #title{
+	font-size: 20px;
+	color: #0099FF;
+	
+}
+
+#contact p{
+	margin: 0;
+	padding: 0;
+}
+
+#contact h2
+{
+	font-size: 15px;
+	color: #0099FF;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#contact h3
+{
+	font-size: 12px;
+	color: #0099FF;
+	font-weight: bold;
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+
+/* ***** */
+#wrapper {
+    width: 698px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3309bc;
+}
+
+a:hover { 
+	color: #ff8000	; 
+	text-decoration: underline;
+}
+
+
+/* nav */
+* html .clear {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 138px;
+    border-left: none;
+}
+
+#nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background: #0099FF;
+    padding: 2px 0;
+    width: 100%;
+}
+
+#nav a:hover {
+    background: navy;
+}
+
+
+/* footer */
+
+#footer {
+    color: #fff;
+    background: #0099FF;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #ff8000;
+}

@@ -1,0 +1,334 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    /*background: url(images/page_bg.jpg);*/
+    background-image: url("../images/Seychelles.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+html, body, #wrapper, h1, #nav, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 750px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+* html .clear {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+.left {
+    float: left;
+    margin: 1px 8px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 1px 0px 0px 8px;
+}
+
+.softright {
+    text-align: right;
+}
+
+.readmore {
+    text-align: right;
+    padding-right: 1em;
+}
+
+/* ***** */
+#wrapper {
+    width: 698px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3309bc;
+}
+
+a:hover { 
+	color: #ff8000	; 
+	text-decoration: underline;
+}
+
+/*
+a.orange { color: #d07c1a; }
+a.green  { color: #858e10; }
+a.teal   { color: #238aaa; }
+a.purple { color: #9f6bc8; }
+*/
+
+
+/*
+a:hover.orange { color: #FF9B0B; }
+a:hover.green  { color: #45D110; }
+a:hover.teal   { color: #239FF0; }
+a:hover.purple { color: #C12EFA; }
+*/
+
+/* nav */
+
+* html .clear {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 138px;
+    border-left: none;
+}
+
+#nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background: #0099FF;
+    padding: 2px 0;
+    width: 100%;
+}
+
+#nav a:hover {
+    background: navy;
+}
+
+/* highlights */
+#highlights {
+    background-image: url("../images/toronto.jpg");
+	background-repeat: no-repeat;
+    width: 327px;
+    float: left;
+    margin-right: -10px;
+	padding-left: 1px;
+}
+
+#highlights .p {
+    /*padding: 10px 8px;*/
+    margin-left: 187px;
+}
+
+/*
+* html #highlights .p {
+    padding-bottom: 1px;
+}
+*/
+
+/*
+#highlights div.green  { background: #67A5F0; }
+/*#highlights div.purple { background: #7976d6; }
+#highlights div.orange { background: #f2901c; }
+*/
+
+#highlights #topspot {
+	width: 312px;
+    padding: 7px 7px;
+	background: #EAEAEA;
+	float: left;	
+}
+
+/*
+#topspot h2 img{
+border: 1px solid black;
+}
+*/
+
+#highlights .faceotweek {
+    float:left;
+    width: 130px;
+    font-size: 10px;
+    margin-top: 0.3em;
+    color: #9d0000;
+	//border: 1px solid white;
+    font-weight: bold;
+}
+#content {
+	width: 180px;
+	//border: 1px solid white;
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#content p{
+	margin: 0;
+	padding: 0 0.5em 0 1em;
+}
+
+#content .readmore{
+	margin: 1em 0;
+}
+
+#highlights .faceotweek p {
+	margin: 2px 0;
+   // padding: 0 2px;
+}
+
+
+/* right */
+#right {
+    width: 370px;
+    float: right;
+    border-top: 1px solid #bdbdbd;
+    background: url(images/body_tr_bg.gif);
+}
+
+#right #products {
+    float: left;
+    width: 188px;
+}
+
+#right #products div {
+    border-top: 1px solid #bdbdbd;
+    padding: 5px 10px 0 10px;
+}
+
+#right #products #item-one {
+    border-top: none;	
+}
+
+#right #products #item-one p{
+   
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#right #products #item-two h2{
+    border-top: none;
+	width: 70;
+	float: left:
+}
+
+#right #products #item-two p{
+    padding-top: 0;
+	margin-top: 0;
+}
+
+#right .right {
+    margin-left: 1px;
+	float: right;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#products .link{
+	text-align: right;
+}
+
+#right #products h2 {
+    clear: both;
+	
+}
+
+#right #news {
+    float: right;
+    width: 165px;
+    margin: 5px 10px 0 0;
+   // display: inline;
+}
+
+#right #news h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#right #news h3 {
+    margin-bottom: 0.4em;
+}
+
+/* About */
+
+#About {
+    float: right;
+    width: 370px;
+    border-top: 1px solid #bdbdbd;
+    background: url(images/body_br_bg.gif);
+	background-color: transparent;
+}
+
+#About div {
+    padding: 12px 12px 0 12px;
+}
+
+/* footer */
+
+#footer {
+    color: #fff;
+    background: #0099FF;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #ff8000;
+}
